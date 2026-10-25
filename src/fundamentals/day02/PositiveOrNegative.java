@@ -1,0 +1,15 @@
+package fundamentals.day02;
+
+public class PositiveOrNegative {
+    public static void main(String[] args) {
+        int n = 50;
+
+        if (n > 0) {
+            System.out.println("Positive");
+        } else if (n < 0) {
+            System.out.println("Negative");
+        } else {
+            System.out.println("Zero");
+        }
+    }
+}
